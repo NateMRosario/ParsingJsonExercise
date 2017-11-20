@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		811564BE1FBE1BFD0010C34C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811564BD1FBE1BFD0010C34C /* AppDelegate.swift */; };
+		811564C01FBE1BFD0010C34C /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811564BF1FBE1BFD0010C34C /* SongViewController.swift */; };
+		811564C31FBE1BFD0010C34C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811564C11FBE1BFD0010C34C /* Main.storyboard */; };
+		811564C51FBE1BFD0010C34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811564C41FBE1BFD0010C34C /* Assets.xcassets */; };
+		811564C81FBE1BFD0010C34C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811564C61FBE1BFD0010C34C /* LaunchScreen.storyboard */; };
+		811564D31FBE1BFD0010C34C /* ParsingJsonExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811564D21FBE1BFD0010C34C /* ParsingJsonExerciseTests.swift */; };
+		811564DE1FBE1BFD0010C34C /* ParsingJsonExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811564DD1FBE1BFD0010C34C /* ParsingJsonExerciseUITests.swift */; };
+		811564ED1FBE1E3A0010C34C /* SongsInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 811564EC1FBE1E3A0010C34C /* SongsInfo.json */; };
+		811564EF1FBE1E690010C34C /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811564EE1FBE1E690010C34C /* Songs.swift */; };
+		81F282511FBE23AD008622EF /* SongDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F282501FBE23AD008622EF /* SongDetailViewController.swift */; };
+		81F282531FBE288D008622EF /* WeatherInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 81F282521FBE288D008622EF /* WeatherInfo.json */; };
+		81F282561FBE28BE008622EF /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F282551FBE28BE008622EF /* Weather.swift */; };
+		81F282591FBE2B49008622EF /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F282581FBE2B49008622EF /* WeatherViewController.swift */; };
+		81F2825B1FBE32AC008622EF /* WeatherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F2825A1FBE32AC008622EF /* WeatherDetailViewController.swift */; };
+		81F2825F1FBE3B25008622EF /* ColorInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 81F2825E1FBE3B25008622EF /* ColorInfo.json */; };
+		81F282611FBE3B30008622EF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F282601FBE3B30008622EF /* Colors.swift */; };
+		81F282631FBE3E3D008622EF /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F282621FBE3E3D008622EF /* ColorViewController.swift */; };
+		81F282651FBE3EBC008622EF /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F282641FBE3EBC008622EF /* ColorDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		811564CF1FBE1BFD0010C34C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811564B21FBE1BFD0010C34C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811564B91FBE1BFD0010C34C;
+			remoteInfo = ParsingJsonExercise;
+		};
+		811564DA1FBE1BFD0010C34C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811564B21FBE1BFD0010C34C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811564B91FBE1BFD0010C34C;
+			remoteInfo = ParsingJsonExercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		811564BA1FBE1BFD0010C34C /* ParsingJsonExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParsingJsonExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		811564BD1FBE1BFD0010C34C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		811564BF1FBE1BFD0010C34C /* SongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
+		811564C21FBE1BFD0010C34C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		811564C41FBE1BFD0010C34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		811564C71FBE1BFD0010C34C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		811564C91FBE1BFD0010C34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811564CE1FBE1BFD0010C34C /* ParsingJsonExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParsingJsonExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		811564D21FBE1BFD0010C34C /* ParsingJsonExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingJsonExerciseTests.swift; sourceTree = "<group>"; };
+		811564D41FBE1BFD0010C34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811564D91FBE1BFD0010C34C /* ParsingJsonExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParsingJsonExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		811564DD1FBE1BFD0010C34C /* ParsingJsonExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingJsonExerciseUITests.swift; sourceTree = "<group>"; };
+		811564DF1FBE1BFD0010C34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811564EC1FBE1E3A0010C34C /* SongsInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SongsInfo.json; sourceTree = "<group>"; };
+		811564EE1FBE1E690010C34C /* Songs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
+		81F282501FBE23AD008622EF /* SongDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailViewController.swift; sourceTree = "<group>"; };
+		81F282521FBE288D008622EF /* WeatherInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WeatherInfo.json; sourceTree = "<group>"; };
+		81F282551FBE28BE008622EF /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		81F282581FBE2B49008622EF /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		81F2825A1FBE32AC008622EF /* WeatherDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewController.swift; sourceTree = "<group>"; };
+		81F2825E1FBE3B25008622EF /* ColorInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ColorInfo.json; sourceTree = "<group>"; };
+		81F282601FBE3B30008622EF /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		81F282621FBE3E3D008622EF /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		81F282641FBE3EBC008622EF /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		811564B71FBE1BFD0010C34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811564CB1FBE1BFD0010C34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811564D61FBE1BFD0010C34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		811564B11FBE1BFD0010C34C = {
+			isa = PBXGroup;
+			children = (
+				811564BC1FBE1BFD0010C34C /* ParsingJsonExercise */,
+				811564D11FBE1BFD0010C34C /* ParsingJsonExerciseTests */,
+				811564DC1FBE1BFD0010C34C /* ParsingJsonExerciseUITests */,
+				811564BB1FBE1BFD0010C34C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		811564BB1FBE1BFD0010C34C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				811564BA1FBE1BFD0010C34C /* ParsingJsonExercise.app */,
+				811564CE1FBE1BFD0010C34C /* ParsingJsonExerciseTests.xctest */,
+				811564D91FBE1BFD0010C34C /* ParsingJsonExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		811564BC1FBE1BFD0010C34C /* ParsingJsonExercise */ = {
+			isa = PBXGroup;
+			children = (
+				811564EB1FBE1C050010C34C /* Supporting Files */,
+				81F282541FBE28A2008622EF /* JSON */,
+				81F282571FBE28C7008622EF /* Models */,
+				81F2825C1FBE3A85008622EF /* ViewControllers */,
+				81F2825D1FBE3A8F008622EF /* DetailViews */,
+				811564C11FBE1BFD0010C34C /* Main.storyboard */,
+				811564C41FBE1BFD0010C34C /* Assets.xcassets */,
+				811564C91FBE1BFD0010C34C /* Info.plist */,
+			);
+			path = ParsingJsonExercise;
+			sourceTree = "<group>";
+		};
+		811564D11FBE1BFD0010C34C /* ParsingJsonExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				811564D21FBE1BFD0010C34C /* ParsingJsonExerciseTests.swift */,
+				811564D41FBE1BFD0010C34C /* Info.plist */,
+			);
+			path = ParsingJsonExerciseTests;
+			sourceTree = "<group>";
+		};
+		811564DC1FBE1BFD0010C34C /* ParsingJsonExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				811564DD1FBE1BFD0010C34C /* ParsingJsonExerciseUITests.swift */,
+				811564DF1FBE1BFD0010C34C /* Info.plist */,
+			);
+			path = ParsingJsonExerciseUITests;
+			sourceTree = "<group>";
+		};
+		811564EB1FBE1C050010C34C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				811564BD1FBE1BFD0010C34C /* AppDelegate.swift */,
+				811564C61FBE1BFD0010C34C /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81F282541FBE28A2008622EF /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				811564EC1FBE1E3A0010C34C /* SongsInfo.json */,
+				81F282521FBE288D008622EF /* WeatherInfo.json */,
+				81F2825E1FBE3B25008622EF /* ColorInfo.json */,
+			);
+			name = JSON;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		81F282571FBE28C7008622EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				811564EE1FBE1E690010C34C /* Songs.swift */,
+				81F282551FBE28BE008622EF /* Weather.swift */,
+				81F282601FBE3B30008622EF /* Colors.swift */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		81F2825C1FBE3A85008622EF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				811564BF1FBE1BFD0010C34C /* SongViewController.swift */,
+				81F282581FBE2B49008622EF /* WeatherViewController.swift */,
+				81F282621FBE3E3D008622EF /* ColorViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		81F2825D1FBE3A8F008622EF /* DetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				81F282501FBE23AD008622EF /* SongDetailViewController.swift */,
+				81F2825A1FBE32AC008622EF /* WeatherDetailViewController.swift */,
+				81F282641FBE3EBC008622EF /* ColorDetailViewController.swift */,
+			);
+			path = DetailViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		811564B91FBE1BFD0010C34C /* ParsingJsonExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811564E21FBE1BFD0010C34C /* Build configuration list for PBXNativeTarget "ParsingJsonExercise" */;
+			buildPhases = (
+				811564B61FBE1BFD0010C34C /* Sources */,
+				811564B71FBE1BFD0010C34C /* Frameworks */,
+				811564B81FBE1BFD0010C34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParsingJsonExercise;
+			productName = ParsingJsonExercise;
+			productReference = 811564BA1FBE1BFD0010C34C /* ParsingJsonExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		811564CD1FBE1BFD0010C34C /* ParsingJsonExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811564E51FBE1BFD0010C34C /* Build configuration list for PBXNativeTarget "ParsingJsonExerciseTests" */;
+			buildPhases = (
+				811564CA1FBE1BFD0010C34C /* Sources */,
+				811564CB1FBE1BFD0010C34C /* Frameworks */,
+				811564CC1FBE1BFD0010C34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				811564D01FBE1BFD0010C34C /* PBXTargetDependency */,
+			);
+			name = ParsingJsonExerciseTests;
+			productName = ParsingJsonExerciseTests;
+			productReference = 811564CE1FBE1BFD0010C34C /* ParsingJsonExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		811564D81FBE1BFD0010C34C /* ParsingJsonExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811564E81FBE1BFD0010C34C /* Build configuration list for PBXNativeTarget "ParsingJsonExerciseUITests" */;
+			buildPhases = (
+				811564D51FBE1BFD0010C34C /* Sources */,
+				811564D61FBE1BFD0010C34C /* Frameworks */,
+				811564D71FBE1BFD0010C34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				811564DB1FBE1BFD0010C34C /* PBXTargetDependency */,
+			);
+			name = ParsingJsonExerciseUITests;
+			productName = ParsingJsonExerciseUITests;
+			productReference = 811564D91FBE1BFD0010C34C /* ParsingJsonExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		811564B21FBE1BFD0010C34C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "raptrous solutions";
+				TargetAttributes = {
+					811564B91FBE1BFD0010C34C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					811564CD1FBE1BFD0010C34C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 811564B91FBE1BFD0010C34C;
+					};
+					811564D81FBE1BFD0010C34C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 811564B91FBE1BFD0010C34C;
+					};
+				};
+			};
+			buildConfigurationList = 811564B51FBE1BFD0010C34C /* Build configuration list for PBXProject "ParsingJsonExercise" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 811564B11FBE1BFD0010C34C;
+			productRefGroup = 811564BB1FBE1BFD0010C34C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				811564B91FBE1BFD0010C34C /* ParsingJsonExercise */,
+				811564CD1FBE1BFD0010C34C /* ParsingJsonExerciseTests */,
+				811564D81FBE1BFD0010C34C /* ParsingJsonExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		811564B81FBE1BFD0010C34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811564ED1FBE1E3A0010C34C /* SongsInfo.json in Resources */,
+				81F282531FBE288D008622EF /* WeatherInfo.json in Resources */,
+				811564C81FBE1BFD0010C34C /* LaunchScreen.storyboard in Resources */,
+				81F2825F1FBE3B25008622EF /* ColorInfo.json in Resources */,
+				811564C51FBE1BFD0010C34C /* Assets.xcassets in Resources */,
+				811564C31FBE1BFD0010C34C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811564CC1FBE1BFD0010C34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811564D71FBE1BFD0010C34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		811564B61FBE1BFD0010C34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811564EF1FBE1E690010C34C /* Songs.swift in Sources */,
+				81F282611FBE3B30008622EF /* Colors.swift in Sources */,
+				81F282591FBE2B49008622EF /* WeatherViewController.swift in Sources */,
+				81F282651FBE3EBC008622EF /* ColorDetailViewController.swift in Sources */,
+				811564C01FBE1BFD0010C34C /* SongViewController.swift in Sources */,
+				81F2825B1FBE32AC008622EF /* WeatherDetailViewController.swift in Sources */,
+				81F282511FBE23AD008622EF /* SongDetailViewController.swift in Sources */,
+				811564BE1FBE1BFD0010C34C /* AppDelegate.swift in Sources */,
+				81F282631FBE3E3D008622EF /* ColorViewController.swift in Sources */,
+				81F282561FBE28BE008622EF /* Weather.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811564CA1FBE1BFD0010C34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811564D31FBE1BFD0010C34C /* ParsingJsonExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811564D51FBE1BFD0010C34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811564DE1FBE1BFD0010C34C /* ParsingJsonExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		811564D01FBE1BFD0010C34C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 811564B91FBE1BFD0010C34C /* ParsingJsonExercise */;
+			targetProxy = 811564CF1FBE1BFD0010C34C /* PBXContainerItemProxy */;
+		};
+		811564DB1FBE1BFD0010C34C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 811564B91FBE1BFD0010C34C /* ParsingJsonExercise */;
+			targetProxy = 811564DA1FBE1BFD0010C34C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		811564C11FBE1BFD0010C34C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				811564C21FBE1BFD0010C34C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		811564C61FBE1BFD0010C34C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				811564C71FBE1BFD0010C34C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		811564E01FBE1BFD0010C34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		811564E11FBE1BFD0010C34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		811564E31FBE1BFD0010C34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParsingJsonExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = raptroussolutions.ParsingJsonExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		811564E41FBE1BFD0010C34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParsingJsonExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = raptroussolutions.ParsingJsonExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		811564E61FBE1BFD0010C34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParsingJsonExerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = raptroussolutions.ParsingJsonExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParsingJsonExercise.app/ParsingJsonExercise";
+			};
+			name = Debug;
+		};
+		811564E71FBE1BFD0010C34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParsingJsonExerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = raptroussolutions.ParsingJsonExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParsingJsonExercise.app/ParsingJsonExercise";
+			};
+			name = Release;
+		};
+		811564E91FBE1BFD0010C34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParsingJsonExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = raptroussolutions.ParsingJsonExerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParsingJsonExercise;
+			};
+			name = Debug;
+		};
+		811564EA1FBE1BFD0010C34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParsingJsonExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = raptroussolutions.ParsingJsonExerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParsingJsonExercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		811564B51FBE1BFD0010C34C /* Build configuration list for PBXProject "ParsingJsonExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811564E01FBE1BFD0010C34C /* Debug */,
+				811564E11FBE1BFD0010C34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811564E21FBE1BFD0010C34C /* Build configuration list for PBXNativeTarget "ParsingJsonExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811564E31FBE1BFD0010C34C /* Debug */,
+				811564E41FBE1BFD0010C34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811564E51FBE1BFD0010C34C /* Build configuration list for PBXNativeTarget "ParsingJsonExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811564E61FBE1BFD0010C34C /* Debug */,
+				811564E71FBE1BFD0010C34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811564E81FBE1BFD0010C34C /* Build configuration list for PBXNativeTarget "ParsingJsonExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811564E91FBE1BFD0010C34C /* Debug */,
+				811564EA1FBE1BFD0010C34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 811564B21FBE1BFD0010C34C /* Project object */;
+}
